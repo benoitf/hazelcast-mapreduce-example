@@ -1,0 +1,3 @@
+FROM codenvy/jdk7
+ADD $app$ /home/user/$app$
+CMD java -cp /home/user/$app$ MapReduce
